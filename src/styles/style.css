@@ -1,0 +1,188 @@
+.very-large-bold-font, .very-large-normal-font, .large-bold-font, .large-normal-font, .medium-large-bold-font, .medium-large-normal-font, .medium-bold-font, .medium-normal-font, .small-normal-font, .small-bold-font, .small-font, .very-small-bold-font, .very-small-normal-font, .extremely-small-normal-font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+.dark-blue.alt-font {
+  font-family: "Source Serif Pro", serif;
+}
+
+.extremely-small-normal-font {
+  font-weight: normal;
+  font-size: 0.6rem;
+  line-height: 1.31rem;
+}
+
+.very-small-normal-font {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.31rem;
+}
+
+.very-small-bold-font {
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.31rem;
+}
+
+.small-font {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.small-bold-font {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.small-normal-font {
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.medium-normal-font {
+  font-weight: normal;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+}
+
+.medium-bold-font {
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+}
+
+.medium-large-normal-font {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.medium-large-bold-font {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.large-normal-font {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.large-bold-font {
+  font-weight: bold;
+  font-size: 2.375rem;
+  line-height: 2.375rem;
+}
+
+.very-large-normal-font {
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.very-large-bold-font {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+a.dark-blue:hover {
+  text-decoration: underline;
+}
+
+.dark-blue {
+  color: #36404f;
+}
+
+.dark-blue.alt-font {
+  color: #36404f;
+}
+
+.light-dark-blue {
+  color: #5a616d;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.white-hover {
+  color: #efeded;
+}
+
+.white-hover:hover {
+  color: #ffffff;
+}
+
+.dark-blue-hover:hover {
+  color: #5a616d;
+}
+
+.bold-hover:hover {
+  font-weight: bold;
+  border-bottom: "3px solid #D7D7D9";
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.padding-ultra-light {
+  padding: 0.625rem;
+}
+
+.padding-light {
+  padding: 1.25rem;
+}
+
+.padding-medium {
+  padding: 3.125rem;
+}
+
+.padding-heavy {
+  padding: 4.69rem;
+}
+
+.stdBottomMargin {
+  margin: 0 0 1.75rem 0;
+}
+
+.stdBottomMarginMobile {
+  margin: 0 0 0.625rem 0;
+}
+
+.relBottomMargin {
+  margin: 0 0 0.625rem 0;
+}
+
+.relBottomMarginMobile {
+  margin: 0 0 0.625rem 0;
+}
+
+.smallBottomMargin {
+  margin: 0 0 0.3125rem 0;
+}
+
+.stdTopMargin {
+  margin: 1.75rem 0 0 0;
+}
+
+.stdTopMarginMobile {
+  margin: 0.625rem 0 0 0;
+}
+
+.relTopMargin {
+  margin: 0.625rem 0 0 0;
+}
+
+.relTopMarginMobile {
+  margin: 0.625rem 0 0 0;
+}/*# sourceMappingURL=style.css.map */

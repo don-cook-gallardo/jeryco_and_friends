@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+a {
+  color: #36404f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* css-animations */
+
+.half-delay {
+  --animate-delay: 0.25s;
+}

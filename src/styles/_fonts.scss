@@ -1,0 +1,151 @@
+%default-font {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: normal;
+}
+
+%alt-font {
+    font-family: 'Source Serif Pro',
+    serif;
+}
+
+.extremely-small-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 1.31rem;
+}
+
+.very-small-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+}
+
+.very-small-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+}
+
+.small-font {
+    @extend %default-font;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.small-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.small-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.medium-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+
+.medium-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+
+.medium-large-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.medium-large-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.large-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.large-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 2.375rem;
+    line-height: 2.375rem;
+}
+
+.very-large-normal-font {
+    @extend %default-font;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.very-large-bold-font {
+    @extend %default-font;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+a.dark-blue:hover {
+    text-decoration: underline;
+}
+
+.dark-blue {
+    color: #36404f;
+}
+
+.dark-blue.alt-font {
+    @extend %alt-font;
+    color: #36404f;
+}
+
+.light-dark-blue {
+    color: #5a616d;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.white-hover {
+    color: #efeded;
+}
+.white-hover:hover {
+    color: #ffffff;
+}
+
+.dark-blue-hover:hover {
+    color: #5a616d;
+}
+
+.bold-hover:hover {
+    font-weight: bold;
+    border-bottom: "3px solid #D7D7D9";
+}
+
+.text-underline:hover {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}

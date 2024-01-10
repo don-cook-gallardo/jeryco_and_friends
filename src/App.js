@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import "../src/styles/style.css";
+import "animate.css";
+import Home from "./components/Home"
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB0M-4ScHH1TtJDnVwgXnay0OaaJjPecgA",
+  authDomain: "sundried-c6a7a.firebaseapp.com",
+  projectId: "sundried-c6a7a",
+  storageBucket: "sundried-c6a7a.appspot.com",
+  messagingSenderId: "290455220059",
+  appId: "1:290455220059:web:e16d157c7d611ed972f47e",
+  measurementId: "G-B0MFVGS2GX"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Home/>
   );
 }
 
