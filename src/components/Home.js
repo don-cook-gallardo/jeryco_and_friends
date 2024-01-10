@@ -60,7 +60,7 @@ function Desktop(){
                     height: "15%",
                     justifyContent: "center",color: "#595959"
                 }}
-            >Copyright © 2024 Sundried - All Rights Reserved.
+            >Copyright © 2024 Sundried - All Rights Reserved
             </div>
         </div>
     )
