@@ -1,6 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Logo from "../img/sundried_logo.jpg";
-import Radioburner from "../img/Radioburner.jpg";
+import Artwork from "../img/expanded_promo.jpg"
 
 export default function Home() {
     return(<div
@@ -28,7 +27,7 @@ function Desktop(){
                 minWidth: "100vw",
                 maxWidth: "3840px",
                 minHeight: "100vh",
-                backgroundColor: "#ffffff",
+                backgroundColor: "black",
                 alignItems: "center",
                 justifyContent: "center",
                    
@@ -42,7 +41,7 @@ function Desktop(){
                     height: "15%",
                     justifyContent: "center"
                 }}
-            ><img className='logo' src={Logo} style={{width: "500px"}}/> 
+            > 
             </div>
             <div
                 className='padding-light row'
@@ -52,15 +51,15 @@ function Desktop(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://ffm.to/radioburner" target="_blank"><img src={Radioburner} style={{width: "900px", height: "900px"}}/></a> 
+            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "900px", height: "900px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
                     width: "100%",
                     height: "15%",
-                    justifyContent: "center",color: "#595959"
+                    justifyContent: "center",color: "white"
                 }}
-            >Copyright © 2024 Sundried - All Rights Reserved
+            >Copyright © 2024 popkink - all rights reserved.
             </div>
         </div>
     )
@@ -72,34 +71,39 @@ function Mobile(){
         className='column padding-light'
         style={{
             alignItems: "center",
-            height: "90%",
-            width: "85%",
-            backgroundColor: "#ffffff",
+            height: "100%",
+            width: "100%",
+            backgroundColor: "black",
         }}
     >
-        <div
-            className='stdBottomMargin hoverable row'
-            style={{
-                justifyContent: "space-between",
-                alignItems: "center",
-                width: "100%",
-            }}
-        >
-            <div style={{ width: "33%", padding: "0.625rem" }}></div>
-            <div
-                className='row'
-                style={{ width: "33%", justifyContent: "center" }}
-            >
-            </div>
-            <div
-                className='row'
+         <div
+                className='padding-medium row'
                 style={{
-                    width: "33%",
-                    justifyContent: "flex-end",
+                    
+                    width: "100%",
+                    height: "15%",
+                    justifyContent: "center"
                 }}
-            >
+            > 
             </div>
-        </div>
+            <div
+                className='padding-light row'
+                style={{
+                  
+                    width: "100%",
+                    height: "70%",
+                    justifyContent: "center"
+                }}
+            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "400px", height: "400px", position: "relative", left: "-15px"}}/></a> 
+            </div><div
+                className='padding-medium row'
+                style={{
+                    width: "100%",
+                    height: "15%",
+                    justifyContent: "center",color: "white"
+                }}
+            >Copyright © 2024 popkink - all rights reserved.
+            </div>
     </div>
     )
 }
