@@ -94,7 +94,7 @@ function Mobile(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "400px", height: "400px", position: "relative", left: "-15px"}}/></a> 
+            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-15px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
