@@ -78,7 +78,7 @@ function Mobile(){
         }}
     >
         
-           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-15px"}}/></a> 
+           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-20px"}}/></a> 
     </div>
     )
 }
