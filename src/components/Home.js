@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Artwork from "../img/expanded_promo.jpg"
+import Artwork from "../img/expanded_promo_white.jpg"
 
 export default function Home() {
     return(<div
@@ -27,7 +27,7 @@ function Desktop(){
                 minWidth: "100vw",
                 maxWidth: "3840px",
                 minHeight: "100vh",
-                backgroundColor: "black",
+                backgroundColor: "white",
                 alignItems: "center",
                 justifyContent: "center",
                    
@@ -74,11 +74,11 @@ function Mobile(){
             justifyContent:"center",
             height: "100vh",
             width: "100vw",
-            backgroundColor: "black",
+            backgroundColor: "white",
         }}
     >
         
-           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-20px"}}/></a> 
+           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
     </div>
     )
 }
