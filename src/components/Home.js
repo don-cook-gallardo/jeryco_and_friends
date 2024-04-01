@@ -59,7 +59,7 @@ function Desktop(){
                     height: "15%",
                     justifyContent: "center",color: "white"
                 }}
-            >Copyright © 2024 popkink - all rights reserved.
+            >
             </div>
         </div>
     )
@@ -102,7 +102,7 @@ function Mobile(){
                     height: "15%",
                     justifyContent: "center",color: "white"
                 }}
-            >Copyright © 2024 popkink - all rights reserved.
+            >
             </div>
     </div>
     )
