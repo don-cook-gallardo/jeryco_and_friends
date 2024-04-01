@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// For Firebase JS SDK v7.20.0x  and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDR-8A8FmdswN9FG7zpaHRZuUHun8hDzxU",
   authDomain: "popkink-1762c.firebaseapp.com",
