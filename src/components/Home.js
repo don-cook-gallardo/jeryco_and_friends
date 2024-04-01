@@ -71,39 +71,14 @@ function Mobile(){
         className='column padding-light'
         style={{
             alignItems: "center",
-            height: "100%",
-            width: "100%",
+            justifyContent:"center",
+            height: "100vh",
+            width: "100vw",
             backgroundColor: "black",
         }}
     >
-         <div
-                className='padding-medium row'
-                style={{
-                    
-                    width: "100%",
-                    height: "15%",
-                    justifyContent: "center"
-                }}
-            > 
-            </div>
-            <div
-                className='padding-light row'
-                style={{
-                  
-                    width: "100%",
-                    height: "70%",
-                    justifyContent: "center"
-                }}
-            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-15px"}}/></a> 
-            </div><div
-                className='padding-medium row'
-                style={{
-                    width: "100%",
-                    height: "15%",
-                    justifyContent: "center",color: "white"
-                }}
-            >
-            </div>
+        
+           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-15px"}}/></a> 
     </div>
     )
 }
