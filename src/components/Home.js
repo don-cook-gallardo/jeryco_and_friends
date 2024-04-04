@@ -51,7 +51,7 @@ function Desktop(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "900px", height: "900px"}}/></a> 
+            ><a href="https://ffm.to/intropack" target="_blank"><img src={Artwork} style={{width: "900px", height: "900px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
