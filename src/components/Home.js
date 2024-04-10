@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Artwork from "../img/promo_art.jpg"
+import Artwork from "../img/promo_art_black.jpg"
 
 export default function Home() {
     return(<div
@@ -27,7 +27,7 @@ function Desktop(){
                 minWidth: "100vw",
                 maxWidth: "3840px",
                 minHeight: "100vh",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 alignItems: "center",
                 justifyContent: "center",
                    
@@ -74,7 +74,7 @@ function Mobile(){
             justifyContent:"center",
             height: "100vh",
             width: "100vw",
-            backgroundColor: "white",
+            backgroundColor: "black",
         }}
     >
         
