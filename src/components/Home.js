@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Artwork from "../img/promo_art_black.jpg"
+import Artwork2 from "../img/promo_art_black_02.jpg"
 
 export default function Home() {
     return(<div
@@ -51,7 +51,7 @@ function Desktop(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://ffm.to/musikal-alienz" target="_blank"><img src={Artwork} style={{width: "900px", height: "900px"}}/></a> 
+            ><a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "900px", height: "900px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
@@ -78,7 +78,7 @@ function Mobile(){
         }}
     >
         
-           <a href="https://ffm.to/intropack-expanded" target="_blank"><img src={Artwork} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
+           <a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
     </div>
     )
 }
