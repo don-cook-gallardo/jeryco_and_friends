@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Artwork2 from "../img/promo_art_black_02.jpg"
+import Artwork2 from "../img/promo_art_black_03.jpg"
 
 export default function Home() {
     return(<div
