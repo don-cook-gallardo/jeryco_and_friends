@@ -51,8 +51,7 @@ function Desktop(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://www.youtube.com/playlist?list=PLVtycCy8qMALYOpMxZ5OW6k8AImcBUZfo
-" target="_blank"><img src={Artwork2} style={{width: "900px", height: "900px"}}/></a> 
+            ><a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "900px", height: "900px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
@@ -79,8 +78,7 @@ function Mobile(){
         }}
     >
         
-           <a href="https://www.youtube.com/playlist?list=PLVtycCy8qMALYOpMxZ5OW6k8AImcBUZfo
-" target="_blank"><img src={Artwork2} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
+           <a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
     </div>
     )
 }
