@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import Artwork2 from "../img/promo_art_black_03.jpg"
+import Flyer from "../img/Flyer.jpg"
 
 export default function Home() {
     return(<div
@@ -27,7 +27,7 @@ function Desktop(){
                 minWidth: "100vw",
                 maxWidth: "3840px",
                 minHeight: "100vh",
-                backgroundColor: "black",
+                backgroundColor: "#00B7FF",
                 alignItems: "center",
                 justifyContent: "center",
                    
@@ -51,7 +51,7 @@ function Desktop(){
                     height: "70%",
                     justifyContent: "center"
                 }}
-            ><a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "900px", height: "900px"}}/></a> 
+            ><a href="https://www.youtube.com/@popkink/videos" target="_blank"><img src={Flyer} style={{ height: "900px"}}/></a> 
             </div><div
                 className='padding-medium row'
                 style={{
@@ -78,7 +78,7 @@ function Mobile(){
         }}
     >
         
-           <a href="https://ffm.to/galaxy-rock" target="_blank"><img src={Artwork2} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
+           <a href="https://www.youtube.com/@popkink/videos" target="_blank"><img src={Flyer} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
     </div>
     )
 }
