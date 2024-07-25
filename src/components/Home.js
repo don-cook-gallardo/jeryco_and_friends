@@ -27,7 +27,7 @@ function Desktop(){
                 minWidth: "100vw",
                 maxWidth: "3840px",
                 minHeight: "100vh",
-                backgroundColor: "#00B7FF",
+                backgroundColor: "#231F20",
                 alignItems: "center",
                 justifyContent: "center",
                    
@@ -74,11 +74,11 @@ function Mobile(){
             justifyContent:"center",
             height: "100vh",
             width: "100vw",
-            backgroundColor: "black",
+            backgroundColor: "#231F20",
         }}
     >
         
-           <a href="https://www.youtube.com/@popkink/videos" target="_blank"><img src={Flyer} style={{width: "385px", height: "385px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
+           <a href="https://www.youtube.com/@popkink/videos" target="_blank"><img src={Flyer} style={{width: "360px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
     </div>
     )
 }
