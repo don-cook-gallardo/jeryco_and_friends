@@ -19,66 +19,60 @@ function Desktop(){
     
     return(
         <div
-            className='column'
-            style={{
-                margin: "0 auto",
-                height: "100%",
-                width: "100%",
-                minWidth: "100vw",
-                maxWidth: "3840px",
-                minHeight: "100vh",
-                backgroundColor: "#231F20",
-                alignItems: "center",
-                justifyContent: "center",
-                   
-            }}
-        >
-            <div
-                className='padding-medium row'
-                style={{
-                    
-                    width: "100%",
-                    height: "15%",
-                    justifyContent: "center"
-                }}
-            > 
-            </div>
-            <div
-                className='padding-light row'
-                style={{
-                  
-                    width: "100%",
-                    height: "70%",
-                    justifyContent: "center"
-                }}
-            ><a href="https://www.youtube.com/watch?v=eYcykKkMwdw&feature=youtu.be" target="_blank"><img src={Flyer} style={{ height: "900px"}}/></a> 
-            </div><div
-                className='padding-medium row'
-                style={{
-                    width: "100%",
-                    height: "15%",
-                    justifyContent: "center",color: "white"
-                }}
-            >
-            </div>
-        </div>
+        className='column'
+        style={{
+            margin: "0 auto",
+            minHeight: "100vh",
+            width: "100vw",
+            minWidth: "100vw",
+            maxWidth: "3840px",
+            minHeight: "100vh",
+            backgroundColor: "#060606",   
+            alignItems: "center",
+            justifyContent: "center"
+        }}
+    >
+
+     <div style={{padding:'50px'}}></div>
+        <iframe
+        width="888" height="500"
+src='https://www.youtube.com/embed/nCA-ku46Crg?autoplay=1&loop=1'
+frameborder='0'
+allow='autoplay; encrypted-media'
+allowfullscreen
+title='video'
+/>
+            <div style={{padding:'50px'}}></div>
+            
+    </div>
     )
 }
 
 function Mobile(){
     return(
         <div
-        className='column padding-light'
+        className='column'
         style={{
-            alignItems: "center",
-            justifyContent:"center",
-            height: "100vh",
+            minHeight: "120vh",
             width: "100vw",
-            backgroundColor: "#231F20",
+            backgroundColor: "#060606",
+            alignItems: "center",
+            justifyContent: "space-between"
+            
         }}
-    >
-        
-           <a href="https://www.youtube.com/watch?v=eYcykKkMwdw&feature=youtu.be" target="_blank"><img src={Flyer} style={{width: "360px", position: "relative", left: "-20px", top: "-25px"}}/></a> 
+    >    <div className='column' style={{width: "100%", alignItems: "center"}}>
+         <div style={{padding:'50px'}}></div>
+                <iframe
+            width="400" height="224" 
+  src='https://www.youtube.com/embed/nCA-ku46Crg?autoplay=1&loop=1'
+  frameborder='0'
+  allow='autoplay; encrypted-media'
+  allowfullscreen
+  title='video'
+/>
+                </div>
+                <div style={{padding:'50px'}}></div>
+               
     </div>
     )
 }
