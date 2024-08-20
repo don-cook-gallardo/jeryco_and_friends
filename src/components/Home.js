@@ -57,11 +57,10 @@ function Mobile(){
             width: "100vw",
             backgroundColor: "#060606",
             alignItems: "center",
-            justifyContent: "space-between"
+            justifyContent: "center"
             
         }}
     >    <div className='column' style={{width: "100%", alignItems: "center"}}>
-         <div style={{padding:'50px'}}></div>
                 <iframe
             width="400" height="224" 
   src='https://www.youtube.com/embed/nCA-ku46Crg?autoplay=1&loop=1'
@@ -71,7 +70,6 @@ function Mobile(){
   title='video'
 />
                 </div>
-                <div style={{padding:'50px'}}></div>
                
     </div>
     )
