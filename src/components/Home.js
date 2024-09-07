@@ -34,15 +34,15 @@ function Desktop(){
     >
 
      <div style={{padding:'50px'}}></div>
-     <iframe
+    <iframe
             width="888" height="500"
-  src='https://www.youtube.com/watch?v=eYcykKkMwdw'
+  src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
   frameborder='0'
   allow='autoplay; encrypted-media'
   allowfullscreen
   title='video'
 />
-<div style={{padding:'50px'}}></div>
+            <div style={{padding:'50px'}}></div>
             
     </div>
     )
@@ -61,14 +61,16 @@ function Mobile(){
             
         }}
     >    <div className='column' style={{width: "100%", alignItems: "center"}}>
-                 <iframe
+                <iframe
             width="400" height="224" 
-  src='https://www.youtube.com/watch?v=eYcykKkMwdw'
+  src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
   frameborder='0'
   allow='autoplay; encrypted-media'
   allowfullscreen
   title='video'
-/> </div>            
+/>
+                </div>
+               
     </div>
     )
 }
