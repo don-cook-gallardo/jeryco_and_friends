@@ -34,7 +34,7 @@ function Desktop(){
     >
 
      <div style={{padding:'50px'}}></div>
-     <img src={ClubFamousMusic} style={{width: "500px"}}/> 
+     <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "500px"}}/></a> 
     {/* <iframe
             width="888" height="500"
   src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
@@ -62,7 +62,7 @@ function Mobile(){
             
         }}
     >    <div className='column' style={{width: "100%", alignItems: "center"}}>
-        <img src={ClubFamousMusic} style={{width: "500px"}}/> 
+        <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "500px"}}/></a>
                 {/* <iframe
             width="400" height="224" 
   src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
