@@ -62,7 +62,7 @@ function Mobile(){
             
         }}
     >    <div className='column' style={{width: "100%", alignItems: "center"}}>
-        <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "500px"}}/></a>
+        <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "350px"}}/></a>
                 {/* <iframe
             width="400" height="224" 
   src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
