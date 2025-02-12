@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import ClubFamousMusic from "../img/ClubFamousMusic.jpg"
+import ThePanamaSongs from "../img/ThePanamaSongs.JPG"
 
 export default function Home() {
     return(<div
@@ -32,17 +33,13 @@ function Desktop(){
             justifyContent: "center"
         }}
     >
+<div style={{padding:'50px'}}></div>
+     <a href="https://ffm.to/the-panama-songs" target="_blank"><img src={ThePanamaSongs} style={{width: "500px"}}/></a> 
 
+            <div style={{padding:'50px'}}></div>
      <div style={{padding:'50px'}}></div>
      <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "500px"}}/></a> 
-    {/* <iframe
-            width="888" height="500"
-  src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
-  frameborder='0'
-  allow='autoplay; encrypted-media'
-  allowfullscreen
-  title='video'
-/> */}
+
             <div style={{padding:'50px'}}></div>
             
     </div>
@@ -71,7 +68,7 @@ function Mobile(){
   allowfullscreen
   title='video'
 /> */}
-                </div>
+</div>
                
     </div>
     )

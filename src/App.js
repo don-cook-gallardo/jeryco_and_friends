@@ -1,6 +1,5 @@
 import './App.css';
 import "../src/styles/style.css";
-import "animate.css";
 import Home from "./components/Home"
 
 // Import the functions you need from the SDKs you need
