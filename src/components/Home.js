@@ -58,16 +58,13 @@ function Mobile(){
             justifyContent: "center"
             
         }}
-    >    <div className='column' style={{width: "100%", alignItems: "center"}}>
+    > 
+    <a href="https://ffm.to/the-panama-songs" target="_blank"><img src={ThePanamaSongs} style={{width: "350px"}}/></a> 
+
+           <div style={{padding:'25px'}}></div> 
+     <div className='column' style={{width: "100%", alignItems: "center"}}>
         <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "350px"}}/></a>
-                {/* <iframe
-            width="400" height="224" 
-  src='https://www.youtube.com/embed/eYcykKkMwdw?autoplay=1&loop=1'
-  frameborder='0'
-  allow='autoplay; encrypted-media'
-  allowfullscreen
-  title='video'
-/> */}
+                
 </div>
                
     </div>
