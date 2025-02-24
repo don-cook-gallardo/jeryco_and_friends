@@ -28,7 +28,7 @@ function Desktop(){
             minWidth: "100vw",
             maxWidth: "3840px",
             minHeight: "100vh",
-            backgroundColor: "#060606",   
+            backgroundColor: "#F0EAD6",   
             alignItems: "center",
             justifyContent: "center"
         }}
@@ -53,7 +53,7 @@ function Mobile(){
         style={{
             minHeight: "120vh",
             width: "100vw",
-            backgroundColor: "#060606",
+            backgroundColor: "#F0EAD6",
             alignItems: "center",
             justifyContent: "center"
             
