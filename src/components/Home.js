@@ -28,7 +28,7 @@ function Desktop(){
             minWidth: "100vw",
             maxWidth: "3840px",
             minHeight: "100vh",
-            backgroundColor: "#58bf64",   
+            backgroundColor: "#ffe000",   
             alignItems: "center",
             justifyContent: "flex-start"
         }}
@@ -50,15 +50,15 @@ function Mobile(){
         style={{
             minHeight: "120vh",
             width: "100vw",
-            backgroundColor: "#58bf64",
+            backgroundColor: "#ffe000",
             alignItems: "center",
             justifyContent: "flex-start"
             
         }}
         
-    >  <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "100px"}}/>
+    >  <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "150px"}}/>
     <div style={{padding:'10px'}}></div> 
-    <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} padding="25px" style={{width: "350px"}}/></a> 
+    <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} padding="25px" style={{width: "300px"}}/></a> 
     </div>
     )
 }
