@@ -34,7 +34,7 @@ function Desktop(){
         }}
     >
 <div style={{padding:'25px'}}></div>
-<img src={PopkinkLogo} style={{width: "250px"}}/>
+<img src={PopkinkLogo} style={{width: "200px"}}/>
     <div style={{padding:'25px'}}></div> 
      <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} style={{width: "500px"}}/></a> 
 
@@ -56,9 +56,9 @@ function Mobile(){
             
         }}
         
-    >  <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "200px"}}/>
+    >  <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "100px"}}/>
     <div style={{padding:'10px'}}></div> 
-    <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} style={{width: "350px"}}/></a> 
+    <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} padding="25px" style={{width: "350px"}}/></a> 
     </div>
     )
 }
