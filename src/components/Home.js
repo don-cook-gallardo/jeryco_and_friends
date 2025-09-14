@@ -1,6 +1,6 @@
 import { useMediaQuery } from "react-responsive";
-import ClubFamousMusic from "../img/ClubFamousMusic.jpg"
-import ThePanamaSongs from "../img/ThePanamaSongs.JPG"
+import TrackArt from "../img/TrackArt.jpg"
+import PopkinkLogo from "../img/popkink_and_friends.png"
 
 export default function Home() {
     return(<div
@@ -28,20 +28,17 @@ function Desktop(){
             minWidth: "100vw",
             maxWidth: "3840px",
             minHeight: "100vh",
-            backgroundColor: "#b0ff4a",   
+            backgroundColor: "#58bf64",   
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "flex-start"
         }}
     >
-<div style={{padding:'50px'}}></div>
-     <a href="https://ffm.to/the-panama-songs" target="_blank"><img src={ThePanamaSongs} style={{width: "500px"}}/></a> 
+<div style={{padding:'25px'}}></div>
+<img src={PopkinkLogo} style={{width: "250px"}}/>
+    <div style={{padding:'25px'}}></div> 
+     <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} style={{width: "500px"}}/></a> 
 
             <div style={{padding:'50px'}}></div>
-     <div style={{padding:'50px'}}></div>
-     <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "500px"}}/></a> 
-
-            <div style={{padding:'50px'}}></div>
-            
     </div>
     )
 } 
@@ -53,20 +50,15 @@ function Mobile(){
         style={{
             minHeight: "120vh",
             width: "100vw",
-            backgroundColor: "#b0ff4a",
+            backgroundColor: "#58bf64",
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "flex-start"
             
         }}
-    > 
-    <a href="https://ffm.to/the-panama-songs" target="_blank"><img src={ThePanamaSongs} style={{width: "350px"}}/></a> 
-
-           <div style={{padding:'25px'}}></div> 
-     <div className='column' style={{width: "100%", alignItems: "center"}}>
-        <a href="https://ffm.to/club-famous-music" target="_blank"><img src={ClubFamousMusic} style={{width: "350px"}}/></a>
-                
-</div>
-               
+        
+    >  <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "200px"}}/>
+    <div style={{padding:'10px'}}></div> 
+    <a href="https://ffm.to/baby-in-the-morning" target="_blank"><img src={TrackArt} style={{width: "350px"}}/></a> 
     </div>
     )
 }
