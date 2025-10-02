@@ -1,6 +1,6 @@
 import { useMediaQuery } from "react-responsive";
-import TrackArt1 from "../img/EnTuAlma.jpg"
-import TrackArt2 from "../img/BabyintheMorning.jpg"
+import TrackArt2 from "../img/EnTuAlma.jpg"
+import TrackArt1 from "../img/BabyintheMorning.jpg"
 import PopkinkLogo from "../img/popkink_and_friends.png"
 
 export default function Home() {
