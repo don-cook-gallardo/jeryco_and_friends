@@ -2,7 +2,7 @@ import { useMediaQuery } from "react-responsive";
 import TrackArt2 from "../img/En_Tu_Alma.jpg"
 import TrackArt1 from "../img/Baby_In_The_Morning.jpg"
 import TrackArt3 from "../img/Like_A_Weirdo_Track.jpg"
-import PopkinkLogo from "../img/popkink_and_friends.png"
+import PopkinkLogo from "../img/popkink_logo.png"
 
 
 export default function Home() {
@@ -37,8 +37,8 @@ function Desktop(){
         }}
     >
 <div style={{padding:'25px'}}></div>
-{/* <img src={PopkinkLogo} style={{width: "200px"}}/>
-    <div style={{padding:'25px'}}></div> */}
+<img src={PopkinkLogo} style={{width: "200px"}}/>
+    <div style={{padding:'25px'}}></div>
     <a href="https://ffm.to/like-a-weirdo" target="_blank"><img src={TrackArt3} style={{width: "500px"}}/></a>
     <div style={{padding:'10px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a>
@@ -69,7 +69,7 @@ function Mobile(){
         }}
         
     >
-        {/* <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "150px"}}/> */}
+    <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "150px"}}/>
     <div style={{padding:'25px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'5px'}}></div> 
