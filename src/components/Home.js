@@ -70,7 +70,7 @@ function Mobile(){
         
     >
     <div style={{padding:'25px'}}></div> <img src={PopkinkLogo} style={{width: "150px"}}/>
-    <div style={{padding:'25px'}}></div> 
+    <div style={{padding:'10px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'5px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a> 
