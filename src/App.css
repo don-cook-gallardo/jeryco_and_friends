@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 a:hover {
- color: #0cc259;
+ color: #008cff;
 }
 
 /* css-animations */
@@ -87,5 +87,5 @@ a:hover {
 
 .button1:hover {
   background-color: white;
-  color: #0cc259;
+  color: #008cff;
 }
