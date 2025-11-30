@@ -1,7 +1,8 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import Star from "../img/Star.png"
 
 const MailchimpForm = () => {
-  const url = "YOUR_MAILCHIMP_FORM_ACTION_URL"; // Replace with your URL
+  const url = "https://jerycoandfriends.us7.list-manage.com/subscribe/post?u=2c3a3d45d5393d41290196b6c&amp;id=73e6ea2dff&amp;f_id=00e59be0f0"; // Replace with your URL
 
   return (
     <MailchimpSubscribe
@@ -31,13 +32,17 @@ const CustomForm = ({ onValidated }) => {
   };
 
   return (
-    <div style={{width: "90%"}}>
-      <button style={{width: "20%",minWidth: "100px"}}onClick={submit}>Become A Member</button>
-      <input
+    <div className='column' style={{alignItems: "center"}}>
+       <img class="star" src={Star} style={{width: "200px"}} onClick={submit}/>
+      <div style={{padding: "15px"}}></div>
+      {/* <button className='submit-button' style={{height: "39px", minWidth: "300px"}} onClick={submit}>Become A Member</button> */}
+      <input style={{height: "35px",minWidth: "300px", textAlign: "center"}}
         ref={node => (email = node)}
-        type="email"
-        placeholder="Your Email"
+        type="email"  
+        placeholder="Enter Your Email and Click the Magic Star"
       />
+      
+     
     </div>
   );
 };
