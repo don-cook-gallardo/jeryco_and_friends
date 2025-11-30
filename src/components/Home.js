@@ -45,7 +45,7 @@ function Desktop(){
         <div style={{padding:'10px'}}></div> 
         <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="button1" style={{width: "115px", height: "40px"}}>Share</button></a>
             <div style={{padding:'25px'}}></div> 
-        <img src={SaiyanKenny} style={{width: "450px"}}/>
+        <img src={SaiyanKenny} style={{width: "375px"}}/>
         <div style={{padding:'25px'}}></div> 
     </div>
     )
