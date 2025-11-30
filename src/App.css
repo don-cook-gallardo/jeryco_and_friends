@@ -69,7 +69,7 @@ a:hover {
   --animate-delay: 0.25s;
 }
 
-.button {
+button {
   background-color: #0cc259;
   border: white;
   color: white;

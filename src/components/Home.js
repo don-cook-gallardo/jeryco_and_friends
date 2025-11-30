@@ -2,7 +2,7 @@ import { useMediaQuery } from "react-responsive";
 import TrackArt2 from "../img/En_Tu_Alma.jpg"
 import TrackArt3 from "../img/Like_A_Weirdo_Track.jpg"
 import Logo from "../img/Jeryco_and_Friends.png"
-
+import SaiyanKenny from "../img/Saiyan_Kenny_Roulette.png"
 
 export default function Home() {
     return(<div
@@ -19,7 +19,6 @@ export default function Home() {
 }
 
 function Desktop(){
-    
     return(
         <div
         className='column'
@@ -40,12 +39,14 @@ function Desktop(){
     <div style={{padding:'10px'}}></div>
     <a href="https://ffm.to/like-a-weirdo" target="_blank"><img src={TrackArt3} style={{width: "500px"}}/></a>
     <div style={{padding:'10px'}}></div> 
-        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a>
+        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button1" style={{width: "115px", height: "40px"}}>Share</button></a>
             <div style={{padding:'15px'}}></div> 
      <a href="https://ffm.to/en-tu-alma" target="_blank"><img src={TrackArt2} style={{width: "500px"}}/></a> 
         <div style={{padding:'10px'}}></div> 
-        <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a>
-            <div style={{padding:'25px'}}></div>
+        <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="button1" style={{width: "115px", height: "40px"}}>Share</button></a>
+            <div style={{padding:'25px'}}></div> 
+        <img src={SaiyanKenny} style={{width: "450px"}}/>
+        <div style={{padding:'25px'}}></div> 
     </div>
     )
 } 
@@ -64,17 +65,18 @@ function Mobile(){
         }}
         
     >
-    <div style={{padding:'25px'}}></div> <img src={Logo} style={{width: "400px"}}/>
+    <div style={{padding:'25px'}}></div> <img src={Logo} style={{width: "350px"}}/>
     <div style={{padding:'10px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a> 
+        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="button1" style={{width: "115px", height: "40px"}}>Share</button></a> 
     <div style={{padding:'15px'}}></div> 
     <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="button button1" style={{width: "115px", height: "40px"}}>Share</button></a> 
+        <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="button1" style={{width: "115px", height: "40px"}}>Share</button></a> 
+        <div style={{padding:'20px'}}></div> 
+        <img src={SaiyanKenny} style={{width: "350px"}}/>
         <div style={{padding:'25px'}}></div> 
     </div>
-    
     )
 }
