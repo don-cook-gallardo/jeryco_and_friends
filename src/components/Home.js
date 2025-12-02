@@ -1,9 +1,11 @@
+import { useState, useEffect } from 'react';
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import TrackArt2 from "../img/En_Tu_Alma.jpg"
 import TrackArt3 from "../img/Like_A_Weirdo_Track_Art.jpg"
 import Logo from "../img/Jeryco_and_Friends.png"
 import MailchimpForm from "./MailchimpForm"
+import BouncingKenny from "./BouncingKenny";
 
 export default function Home() {
     return(<div
@@ -54,20 +56,35 @@ function Desktop(){
 } 
 
 function Mobile(){
-    return(
-        <div
-        className='column'
-        style={{
-            minHeight: "120vh",
-            width: "100vw",
-            backgroundColor: "#ff8022",
-            alignItems: "center",
-            justifyContent: "flex-start"
-            
-        }}
+     const [slideUp, setSlideUp] = useState(false);
+    
+    useEffect(() => {
+        // Wait 3 seconds, then slide up
+        const timer = setTimeout(() => {
+            setSlideUp(true);
+        }, 3000); // 3000ms = 3 seconds
         
-    >
-    <div style={{padding:'25px'}}></div> <img src={Logo} style={{width: "350px"}}/>
+        return () => clearTimeout(timer);
+    }, []);
+    return(
+        <div style={{ position: 'relative', width: '100vw', overflow: 'hidden' }}>
+        <BouncingKenny/>
+<div
+                style={{
+                    position: 'relative',
+                    marginTop: slideUp ? '-100vh' : '0px',
+                    transition: 'margin-top 1s ease-in-out',
+                    minHeight: '120vh',
+                    width: '100vw',
+                    backgroundColor: '#ff8022',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'flex-start',
+                    paddingTop: '25px'
+                }}
+            >
+<div style={{padding:'5px'}}></div> <img src={Logo} style={{width: "350px"}}/>
     <div style={{padding:'10px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
@@ -81,7 +98,7 @@ function Mobile(){
         <MailchimpForm/>
         <div style={{padding:'25px'}}></div> 
         <div style={{color: "white"}}>Jeryco and Friends © 2025</div>
-         <div style={{padding:'20px'}}></div> 
+         <div style={{padding:'20px'}}></div> </div>
     </div>
     )
 }
