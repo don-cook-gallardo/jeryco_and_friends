@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 function BouncingKenny() {
   const [position, setPosition] = useState({ x: 150, y: 150 });
-  const [velocity, setVelocity] = useState({ x: 10, y: 8 });
+  const [velocity, setVelocity] = useState({ x: 5, y: 4 });
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
   const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
