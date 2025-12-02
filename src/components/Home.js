@@ -60,7 +60,7 @@ function Mobile(){
         style={{
             minHeight: "120vh",
             width: "100vw",
-            backgroundColor: "#212121",
+            backgroundColor: "#ff8022",
             alignItems: "center",
             justifyContent: "flex-start"
             
