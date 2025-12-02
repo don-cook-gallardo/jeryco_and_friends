@@ -1,9 +1,8 @@
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import TrackArt2 from "../img/En_Tu_Alma.jpg"
-import TrackArt3 from "../img/Like_A_Weirdo_Track.jpg"
+import TrackArt3 from "../img/Like_A_Weirdo_Track_Art.jpg"
 import Logo from "../img/Jeryco_and_Friends.png"
-import SaiyanKennyRoulette from "../img/Saiyan_Kenny_Roulette.png"
 import MailchimpForm from "./MailchimpForm"
 
 export default function Home() {

@@ -1,5 +1,4 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
-import Star from "../img/Star.png"
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import SaiyanKennyDark from "../img/Saiyan_Kenny_Dark.png"
 
@@ -42,7 +41,7 @@ const CustomForm = ({ onValidated }) => {
       <input style={{height: "35px",minWidth: "300px", textAlign: "center"}}
         ref={node => (email = node)}
         type="email"  
-        placeholder="Enter Your Email and Pick A Side"
+        placeholder="Enter Your Email and Pick A Kenny"
       />
       
      
