@@ -32,8 +32,8 @@ export default function PortfolioTabs() {
               onClick={() => handleTabClick(tab.id, tab.path)}
               onMouseEnter={() => setHoveredTab(tab.id)}
               onMouseLeave={() => setHoveredTab(null)}
-              style={{ backgroundColor: showBlue ? '#00bdff' : 'white' }}
-              className={`text-lg font-bold tracking-wide px-4 py-2 rounded transition-all duration-200 uppercase ${showBlue ? 'text-white' : 'text-black'}`}
+              style={{ backgroundColor: showBlue ? '#00bdff' : 'white', border: "none", color: "black" }}
+              className={`text-lg font-bold tracking-wide px-4 py-2 transition-all duration-200 uppercase`}
             >
               {tab.label}
             </button>

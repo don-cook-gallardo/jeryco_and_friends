@@ -4,6 +4,7 @@ import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import TrackArt2 from "../img/En_Tu_Alma.jpg"
 import TrackArt3 from "../img/Like_A_Weirdo_Track_Art.jpg"
 import Footer from "../components/Footer";
+import FooterAlt from "../components/Footer";
 
 export default function Music() {
     return(<div
@@ -29,13 +30,13 @@ function Desktop(){
             width: "100vw",
             minWidth: "100vw",
             maxWidth: "3840px",
-            backgroundColor: "#212121",   
+           backgroundColor: '#78f726',   
             alignItems: "center",
             justifyContent: "center"
         }}
     >
 <img src={SaiyanKenny} style={{width: "350px"}}/>
-<div style={{color: "white", padding: "5px"}}>Please view from mobile device.</div>
+<div style={{color: "black", padding: "5px"}}>Please view from mobile device.</div>
         
     </div> <Footer/></div>
     )
@@ -44,13 +45,13 @@ function Desktop(){
 function Mobile(){
    
     return(
-<div className='column' style={{alignItems: "center",  backgroundColor: "#212121", }}>
+<div className='column' style={{alignItems: "center",    backgroundColor: '#78f726' }}>
     <div style={{padding:'20px'}}></div> 
-    <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
+    <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%", border:"1px solid white"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
     <div style={{padding:'15px'}}></div> 
-    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%"}}/></a>
+    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%", border:"1px solid white"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
          <MailchimpForm/>

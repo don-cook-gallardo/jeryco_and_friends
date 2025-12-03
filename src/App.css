@@ -81,24 +81,9 @@ button {
 }
 
 .share-button {
-  background-color: #0cc259;
-  border: white;
+  background-color: #ff00d9;
   color: white;
   border: 2px solid white;
-}
-
-.submit-button {
-  background: #ea5da1;
-  border: white;
-  color: white;
-  /* padding: 16px 32px; */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 }
 
 .share-button:hover {
