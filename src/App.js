@@ -2,7 +2,6 @@ import './App.css';
 import "../src/styles/style.css";
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useMediaQuery } from "react-responsive";
 import Music from './pages/Music';
 import Tour from './pages/Tour';
 import Prints from './pages/Prints';
@@ -65,7 +64,7 @@ function App() {
                     paddingTop: "25px",
                 }}
             >
- <img src={Logo} style={{width: "350px"}}/>
+ <a href="/" target='_self'><img src={Logo} style={{width: "350px"}}/></a>
  <div style={{padding:'5px'}}></div> 
  <Tabs/>
       <Routes>

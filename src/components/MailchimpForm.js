@@ -34,7 +34,7 @@ const CustomForm = ({ onValidated }) => {
   };
 
   return (
-    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px", backgroundColor: '#78f726'}}>
+    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px", backgroundColor: '#5bbc1bff'}}>
        <div className='row'><img class="hover" src={SaiyanKennyBlue} style={{width: "150px"}} onClick={submit}/><img class="hover" src={SaiyanKenny} style={{width: "150px"}} onClick={submit}/></div>
 
       {/* <button className='submit-button' style={{height: "39px", minWidth: "300px"}} onClick={submit}>Become A Member</button> */}
