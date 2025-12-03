@@ -1,6 +1,7 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import SaiyanKennyBlue from "../img/Saiyan_Kenny_Blue.png"
+// import SaiyanKennyDark from "../img/Saiyan_Kenny_Dark.png"
 
 const MailchimpForm = () => {
   const url = "https://jerycoandfriends.us7.list-manage.com/subscribe/post?u=2c3a3d45d5393d41290196b6c&amp;id=73e6ea2dff&amp;f_id=00e59be0f0"; // Replace with your URL
@@ -33,7 +34,7 @@ const CustomForm = ({ onValidated }) => {
   };
 
   return (
-    <div className='column' style={{alignItems: "center"}}>
+    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px",  backgroundColor: "#212121",}}>
        <div className='row'><img class="hover" src={SaiyanKennyBlue} style={{width: "150px"}} onClick={submit}/><img class="hover" src={SaiyanKenny} style={{width: "150px"}} onClick={submit}/></div>
 
       {/* <button className='submit-button' style={{height: "39px", minWidth: "300px"}} onClick={submit}>Become A Member</button> */}
@@ -43,8 +44,7 @@ const CustomForm = ({ onValidated }) => {
         type="email"  
         placeholder="Enter Your Email and Pick A Kenny"
       />
-      
-     
+      <div style={{padding: "10px"}}></div>
     </div>
   );
 };

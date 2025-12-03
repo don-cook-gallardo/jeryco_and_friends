@@ -1,6 +1,15 @@
 import './App.css';
 import "../src/styles/style.css";
-import Home from "./components/Home"
+import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useMediaQuery } from "react-responsive";
+import Music from './pages/Music';
+import Tour from './pages/Tour';
+import Prints from './pages/Prints';
+import Merch from './pages/Merch';
+import Logo from "./img/Jeryco_and_Friends.png"
+import BouncingKenny from "./components/BouncingKenny"
+import Tabs from './components/Tabs';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -25,8 +34,48 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 function App() {
+
+    const [slideUp, setSlideUp] = useState(false);
+    
+    useEffect(() => {
+        // Wait 3 seconds, then slide up
+        const timer = setTimeout(() => {
+            setSlideUp(true);
+        }, 3000); // 3000ms = 3 seconds
+        
+        return () => clearTimeout(timer);
+    }, []);
+
   return (
-    <Home/>
+   <BrowserRouter>
+    <div style={{ position: 'relative', width: '100vw', overflow: 'hidden' }}>
+        <BouncingKenny/>
+<div
+                style={{
+                    position: 'relative',
+                    marginTop: slideUp ? '-100vh' : '0px',
+                    transition: 'margin-top 1s ease-in-out',
+                    minHeight: '120vh',
+                    width: '100vw',
+                    backgroundColor: '#ff8022',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'flex-start',
+                    paddingTop: "25px",
+                }}
+            >
+ <img src={Logo} style={{width: "350px"}}/>
+ <div style={{padding:'5px'}}></div> 
+ <Tabs/>
+      <Routes>
+        <Route path="/music" element={<Music />} />
+        <Route path="/tour" element={<Tour/>} />
+        <Route path="/prints" element={<Prints/>} />
+        <Route path="/merch" element={<Merch />} />
+        <Route path="/" element={<Music />} /> {/* default route */}
+      </Routes></div></div>
+    </BrowserRouter>
   );
 }
 

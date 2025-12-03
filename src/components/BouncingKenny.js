@@ -79,12 +79,11 @@ function BouncingKenny() {
     <div 
       ref={containerRef}
       style={{ 
-        width: '100%',
+        width: '100vw',
         height: '100vh',
         backgroundColor: '#78f726',
         position: 'relative',
         overflow: 'hidden',
-        // borderBottom: '4px solid white'
       }}
     >
       <div

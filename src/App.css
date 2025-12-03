@@ -70,9 +70,6 @@ a:hover {
 }
 
 button {
-  background-color: #0cc259;
-  border: white;
-  color: white;
   /* padding: 16px 32px; */
   text-align: center;
   text-decoration: none;
@@ -81,6 +78,13 @@ button {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+}
+
+.share-button {
+  background-color: #0cc259;
+  border: white;
+  color: white;
+  border: 2px solid white;
 }
 
 .submit-button {
@@ -97,9 +101,7 @@ button {
   cursor: pointer;
 }
 
-.button1 {border: 2px solid white;}
-
-.button1:hover {
+.share-button:hover {
   background-color: white;
   color: #008cff;
 }
