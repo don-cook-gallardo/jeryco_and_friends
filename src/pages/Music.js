@@ -29,28 +29,26 @@ function Desktop(){
             width: "100vw",
             minWidth: "100vw",
             maxWidth: "3840px",
-           backgroundColor: '#5bbc1bff',   
+             backgroundColor: '#ff8022',   
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "flex-start"
         }}
-    >
+    ><div style={{height: "50px",}}></div>
 <img src={SaiyanKenny} style={{width: "350px"}}/>
-<div style={{color: "white", padding: "5px"}}><strong>Please view from mobile device.</strong></div>
-        
-    </div>
+<div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
     )
 } 
 
 function Mobile(){
    
     return(
-<div className='column' style={{alignItems: "center",    backgroundColor: '#5bbc1bff' }}>
+<div className='column' style={{alignItems: "center",  backgroundColor: '#ff8022',  }}>
     <div style={{padding:'20px'}}></div> 
-    <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%", border:"1px solid white"}}/></a>
+    <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
     <div style={{padding:'15px'}}></div> 
-    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%", border:"1px solid white"}}/></a>
+    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
          <MailchimpForm/>

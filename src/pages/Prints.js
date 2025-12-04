@@ -20,7 +20,7 @@ export default function Prints() {
 
 function Desktop(){
     return(
-       <div
+        <div
         className='column'
         style={{
             margin: "0 auto",
@@ -28,15 +28,13 @@ function Desktop(){
             width: "100vw",
             minWidth: "100vw",
             maxWidth: "3840px",
-           backgroundColor: '#5bbc1bff',   
+             backgroundColor: '#ff8022',   
             alignItems: "center",
-            justifyContent: "center"
+            justifyContent: "flex-start"
         }}
-    >
+    ><div style={{height: "50px",}}></div>
 <img src={SaiyanKenny} style={{width: "350px"}}/>
-<div style={{color: "white", padding: "5px"}}><strong>Please view from mobile device.</strong></div>
-        
-    </div>
+<div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
     )
 } 
 
