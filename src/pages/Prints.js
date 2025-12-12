@@ -43,7 +43,7 @@ function Mobile(){
    
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: '#5bbc1bff'}}>
 <div><div style={{padding: "50px"}}></div>
-    <img src={ComingSoon} style={{width: "150px"}}/>
+    <img src={ComingSoon} style={{width: "300px"}}/>
    </div>
     <img src={WunderMascot} style={{width: "425px"}}/>
        

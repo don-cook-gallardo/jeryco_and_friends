@@ -1,8 +1,8 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import UpcomingDates from "../img/Upcoming_Dates.png"
-import TourDates from "../img/Tour_Dates.png"
+import ShowDatesHeader from "../img/Show_Dates_Header.png"
+import ShowDates from "../img/Show_Dates.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
@@ -46,9 +46,9 @@ function Mobile(){
    
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#5bbc1bff'}}>
 <div className='column' style={{alignItems: "center"}}><div style={{padding: "20px"}}></div>
-<img src={UpcomingDates} style={{width: "350px"}}/>
+<img src={ShowDatesHeader} style={{width: "350px"}}/>
 <div style={{paddingBottom: "5px"}}></div>
-    <img src={TourDates} style={{width: "400px"}}/>
+    <img src={ShowDates} style={{width: "450px"}}/>
     </div>
      <img src={WunderMascot} style={{width: "425px"}}/>
        
