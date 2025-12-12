@@ -3,6 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import ComingSoon from "../img/Coming_Soon.png"
 import Footer from "../components/Footer"
+import WunderMascot from "../img/Wunder_Mascots.png"
 
 export default function Merch() {
     return(<div
@@ -41,8 +42,9 @@ function Desktop(){
 function Mobile(){
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: '#5bbc1bff',}}>
 <div><div style={{padding: "50px"}}></div>
-    <img src={ComingSoon} style={{width: "250px"}}/>
-    <div style={{height: "300px"}}></div></div>
+    <img src={ComingSoon} style={{width: "150px"}}/>
+    </div>
+     <img src={WunderMascot} style={{width: "425px"}}/>
        
         </div><Footer/></div>
     )

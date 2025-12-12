@@ -1,8 +1,10 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import ComingSoon from "../img/Coming_Soon.png"
+import UpcomingDates from "../img/Upcoming_Dates.png"
+import TourDates from "../img/Tour_Dates.png"
 import Footer from "../components/Footer"
+import WunderMascot from "../img/Wunder_Mascots.png"
 
 export default function Tour() {
     return(<div
@@ -32,7 +34,7 @@ function Desktop(){
             alignItems: "center",
             justifyContent: "flex-start"
         }}
-    ><div style={{height: "50px",}}></div>
+    ><div style={{height: "50px"}}></div>
 <img src={SaiyanKenny} style={{width: "350px"}}/>
 <div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
         
@@ -43,9 +45,12 @@ function Desktop(){
 function Mobile(){
    
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#5bbc1bff'}}>
-<div><div style={{padding: "50px"}}></div>
-    <img src={ComingSoon} style={{width: "250px"}}/>
-    <div style={{height: "300px"}}></div></div>
+<div className='column' style={{alignItems: "center"}}><div style={{padding: "20px"}}></div>
+<img src={UpcomingDates} style={{width: "350px"}}/>
+<div style={{paddingBottom: "5px"}}></div>
+    <img src={TourDates} style={{width: "400px"}}/>
+    </div>
+     <img src={WunderMascot} style={{width: "425px"}}/>
        
         </div><Footer/></div>
     )

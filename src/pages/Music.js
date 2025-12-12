@@ -46,11 +46,11 @@ function Mobile(){
     <div style={{padding:'20px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt3} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
+        <a href="https://ffm.to/like-a-weirdo" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
     <div style={{padding:'15px'}}></div> 
     <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={TrackArt2} style={{width: "95%"}}/></a>
     <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/en-tu-alma" target="_blank"><button class="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
+        <a href="https://ffm.to/en-tu-alma" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}>Share</button></a> 
          <MailchimpForm/>
         <Footer/>
     </div>
