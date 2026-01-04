@@ -1,8 +1,9 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import ShowDatesHeader from "../img/Show_Dates_Header.png"
-import ShowDates from "../img/Show_Dates.png"
+import ShowDatesHeader from "../img/Show_Dates.png"
+import Tour1 from "../img/Tour_01.png"
+import Tour2 from "../img/Tour_02.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
@@ -45,10 +46,12 @@ function Desktop(){
 function Mobile(){
    
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#5bbc1bff'}}>
-<div className='column' style={{alignItems: "center"}}><div style={{padding: "20px"}}></div>
+<div className='column' style={{alignItems: "center", justifyContent: "center"}}><div style={{padding: "20px"}}></div>
 <img src={ShowDatesHeader} style={{width: "350px"}}/>
 <div style={{paddingBottom: "5px"}}></div>
-    <img src={ShowDates} style={{width: "450px"}}/>
+    <img src={Tour1} style={{width: "450px"}}/>
+    <div style={{paddingTop: "5px"}}></div>
+     <img src={Tour2} style={{width: "450px"}}/>
     </div>
      <img src={WunderMascot} style={{width: "425px"}}/>
        
