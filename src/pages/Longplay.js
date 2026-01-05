@@ -1,13 +1,11 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import ShowDatesHeader from "../img/Show_Dates.png"
-import Tour1 from "../img/Tour_01.png"
-import Tour2 from "../img/Tour_02.png"
+import LiveAtLongplay from "../img/Live_At_Longplay.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
-export default function Tour() {
+export default function Longplay() {
     return(<div
         style={{
             overflowX: "hidden",
@@ -23,7 +21,7 @@ export default function Tour() {
 
 function Desktop(){
     return(
-       <div
+        <div
         className='column'
         style={{
             margin: "0 auto",
@@ -35,24 +33,29 @@ function Desktop(){
             alignItems: "center",
             justifyContent: "flex-start"
         }}
-    ><div style={{height: "50px"}}></div>
+    ><div style={{height: "50px",}}></div>
 <img src={SaiyanKenny} style={{width: "350px"}}/>
 <div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
-        
- 
     )
 } 
 
 function Mobile(){
    
-    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#5bbc1bff'}}>
-<div className='column' style={{alignItems: "center", justifyContent: "center"}}><div style={{padding: "20px"}}></div>
-<img src={ShowDatesHeader} style={{width: "350px"}}/>
-<div style={{paddingBottom: "5px"}}></div>
-    <img src={Tour1} style={{width: "450px"}}/>
-    </div>
-     <img src={WunderMascot} style={{width: "425px"}}/>
+    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
+<div><div className="row" style={{width: "356",padding: "25px 10px 10px 10px", justifyContent: "center"}}><img src={LiveAtLongplay} style={{width: "150px"}}/></div>
+    <iframe 
+  width="356" 
+  height="200" 
+  src="https://www.youtube.com/embed/mZ0I4Ca1-uc?autoplay=1&mute=1" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+   </div>
+    <img src={WunderMascot} style={{width: "425px"}}/>
        
         </div><Footer/></div>
+        
     )
 }

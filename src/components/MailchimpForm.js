@@ -1,7 +1,6 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import SaiyanKennyBlue from "../img/Saiyan_Kenny_Blue.png"
-// import SaiyanKennyDark from "../img/Saiyan_Kenny_Dark.png"
+import SaiyanKennyWhite from "../img/Saiyan_Kenny_White.png"
 
 const MailchimpForm = () => {
   const url = "https://jerycoandfriends.us7.list-manage.com/subscribe/post?u=2c3a3d45d5393d41290196b6c&amp;id=73e6ea2dff&amp;f_id=00e59be0f0"; // Replace with your URL
@@ -34,8 +33,8 @@ const CustomForm = ({ onValidated }) => {
   };
 
   return (
-    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px",   backgroundColor: '#ff8022',}}>
-       <div className='row'><img className="hover" src={SaiyanKennyBlue} style={{width: "150px"}} onClick={submit}/><img className="hover" src={SaiyanKenny} style={{width: "150px"}} onClick={submit}/></div>
+    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px",   backgroundColor: 'white',}}>
+       <div className='row'><img className="hover" src={SaiyanKennyWhite} style={{width: "150px"}} onClick={submit}/><img className="hover" src={SaiyanKenny} style={{width: "150px"}} onClick={submit}/></div>
 
       {/* <button className='submit-button' style={{height: "39px", minWidth: "300px"}} onClick={submit}>Become A Member</button> */}
       <div style={{padding: "15px"}}></div>
