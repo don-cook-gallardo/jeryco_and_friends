@@ -7,7 +7,6 @@ import Tour from './pages/Tour';
 import Prints from './pages/Prints';
 import Merch from './pages/Merch';
 import Longplay from "./pages/Longplay"
-import Logo from "./img/Jeryco_and_Friends.png"
 import BouncingKenny from "./components/BouncingKenny"
 import Tabs from './components/Tabs';
 
