@@ -9,7 +9,7 @@ export default function PortfolioTabs() {
 
   const tabs = [
     { id: 'music', label: 'MUSIC', path: '/music' },
-    { id: 'tour', label: 'TOUR DATES', path: '/tour' },
+    { id: 'tour', label: 'TOUR', path: '/tour' },
     { id: 'prints', label: 'PRINTS', path: '/prints' },
     { id: 'merch', label: 'MERCH', path: '/merch' }, 
   ];

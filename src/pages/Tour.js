@@ -1,7 +1,7 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import ShowDatesHeader from "../img/Show_Dates.png"
+import ShowDatesHeader from "../img/Upcoming.png"
 import Tour1 from "../img/Tour_01.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
