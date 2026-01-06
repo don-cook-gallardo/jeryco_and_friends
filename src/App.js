@@ -65,7 +65,6 @@ function App() {
                     paddingTop: "25px",
                 }}
             >
- {/* <a href="/" target='_self'><img src={Logo} style={{width: "350px"}}/></a> */}
  <div style={{padding:'5px'}}></div> 
  <Tabs/>
       <Routes>
