@@ -33,9 +33,8 @@ const CustomForm = ({ onValidated }) => {
   };
 
   return (
-    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px",   backgroundColor: 'white',}}>
+    <div className='column' style={{alignItems: "center", width: "100vw",padding: "25px",   backgroundColor: '#5bbc1bff',}}>
        <div className='row'><img className="hover" src={SaiyanKennyWhite} style={{width: "150px"}} onClick={submit}/><img className="hover" src={SaiyanKenny} style={{width: "150px"}} onClick={submit}/></div>
-
       {/* <button className='submit-button' style={{height: "39px", minWidth: "300px"}} onClick={submit}>Become A Member</button> */}
       <div style={{padding: "15px"}}></div>
       <input style={{height: "35px",minWidth: "300px", textAlign: "center"}}
