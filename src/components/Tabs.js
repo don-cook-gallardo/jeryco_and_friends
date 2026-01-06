@@ -60,7 +60,7 @@ export default function PortfolioTabs() {
         </nav>
       </div>
       
-      <div className="w-full" style={{paddingBottom: "15px"}}>
+      <div className="w-full" style={{paddingBottom: "20px"}}>
         <nav className="flex flex-wrap justify-center gap-6 px-4 py-6">
           {tabs2.map((tab) => {
             const isActive = activeTab === tab.id;

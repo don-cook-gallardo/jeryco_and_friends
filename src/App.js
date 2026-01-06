@@ -57,7 +57,7 @@ function App() {
                     transition: 'margin-top 1s ease-in-out',
                     minHeight: '120vh',
                     width: '100vw',
-                    backgroundColor: '#ff8022',
+                    backgroundColor: '#5bbc1bff',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
