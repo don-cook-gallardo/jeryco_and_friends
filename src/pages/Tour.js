@@ -44,7 +44,7 @@ function Desktop(){
 
 function Mobile(){
    
-    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#5bbc1bff'}}>
+    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",  backgroundColor: '#ff6a00'}}>
 <div className='column' style={{alignItems: "center", justifyContent: "center"}}><div style={{padding: "20px"}}></div>
 <img src={ShowDatesHeader} style={{width: "350px"}}/>
 <div style={{paddingBottom: "5px"}}></div>

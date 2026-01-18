@@ -42,18 +42,18 @@ function Desktop(){
 
 function Mobile(){
     return(
-<div className='column' style={{alignItems: "center",  backgroundColor: '#5bbc1bff' }}>
+<div className='column' style={{alignItems: "center",  backgroundColor: '#ff6a00' }}>
      <a href="https://ffm.to/super-human" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Superhuman} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/super-human" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
     <div style={{padding:'15px'}}></div>
-    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={EnTuAlma} style={{width: "100vw"}}/></a>
-    <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/en-tu-alma" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
-    <div style={{padding:'15px'}}></div> 
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={LikeAWeirdo} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
+    <div style={{padding:'15px'}}></div> 
+    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={EnTuAlma} style={{width: "100vw"}}/></a>
+    <div style={{padding:'15px'}}></div> 
+        <a href="https://ffm.to/en-tu-alma" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
          <MailchimpForm/>
         <Footer/>
     </div>

@@ -41,7 +41,7 @@ function Desktop(){
 
 function Mobile(){
    
-    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: '#5bbc1bff'}}>
+    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: '#ff6a00'}}>
 <div><div style={{padding: "50px"}}></div>
     <img src={ComingSoon} style={{width: "300px"}}/>
    </div>
