@@ -1,8 +1,8 @@
 import MailchimpForm from "../components/MailchimpForm"
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import EnTuAlma from "../img/En_Tu_Alma.jpg"
 import LikeAWeirdo from "../img/Like_A_Weirdo_Track_Art.jpg"
+import Longplay from "../img/Live_At_Longplay_Cover.jpg"
 import Superhuman from "../img/Superhuman_Track_Art.jpg"
 import Footer from "../components/Footer";
 
@@ -43,6 +43,10 @@ function Desktop(){
 function Mobile(){
     return(
 <div className='column' style={{alignItems: "center",  backgroundColor: '#ff6a00' }}>
+    <a href="https://ffm.to/live-at-longplay" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Longplay} style={{width: "100vw"}}/></a>
+    <div style={{padding:'15px'}}></div> 
+        <a href="https://ffm.to/live-at-lonplay" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
+    <div style={{padding:'15px'}}></div>
      <a href="https://ffm.to/super-human" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Superhuman} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/super-human" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
@@ -50,10 +54,6 @@ function Mobile(){
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={LikeAWeirdo} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
-    <div style={{padding:'15px'}}></div> 
-    <a href="https://ffm.to/en-tu-alma" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={EnTuAlma} style={{width: "100vw"}}/></a>
-    <div style={{padding:'15px'}}></div> 
-        <a href="https://ffm.to/en-tu-alma" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
          <MailchimpForm/>
         <Footer/>
     </div>

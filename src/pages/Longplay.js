@@ -41,17 +41,28 @@ function Desktop(){
 
 function Mobile(){
    
-    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
-<div><div className="row" style={{width: "356",padding: "25px 10px 10px 10px", justifyContent: "center"}}><img src={LiveAtLongplay} style={{width: "150px"}}/></div>
+    return(<div style={{width: "100vw"}}><div className='column' style={{height: "115vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
+        <div><div className="row" style={{width: "356",padding: "25px 15px 10px 10px", justifyContent: "center"}}><img src={LiveAtLongplay} style={{width: "150px"}}/></div>
     <iframe 
   width="356" 
   height="200" 
-  src="https://www.youtube.com/embed/mZ0I4Ca1-uc?autoplay=1&mute=1" 
+  src="https://www.youtube.com/embed/N8pRb1J3zpk?autoplay=1&mute=1" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
 </iframe>
+<div style={{padding:"15px"}}></div>
+<div>
+    <iframe 
+  width="356" 
+  height="200" 
+  src="https://www.youtube.com/embed/mZ0I4Ca1-uc?autoplay=1&mute=1"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe></div>
    </div>
     <img src={WunderMascot} style={{width: "425px"}}/>
        
