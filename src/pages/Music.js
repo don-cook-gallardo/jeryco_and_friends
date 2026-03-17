@@ -2,7 +2,7 @@ import MailchimpForm from "../components/MailchimpForm"
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
 import LikeAWeirdo from "../img/Like_A_Weirdo_Track_Art.jpg"
-import Longplay from "../img/Live_At_Longplay_Cover.jpg"
+// import Longplay from "../img/Live_At_Longplay_Cover.jpg"
 import Superhuman from "../img/Superhuman_Track_Art.jpg"
 import Footer from "../components/Footer";
 
@@ -43,10 +43,10 @@ function Desktop(){
 function Mobile(){
     return(
 <div className='column' style={{alignItems: "center",  backgroundColor: '#ff6a00' }}>
-    <a href="https://ffm.to/live-at-longplay" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Longplay} style={{width: "100vw"}}/></a>
+    {/* <a href="https://ffm.to/live-at-longplay" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Longplay} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/live-at-lonplay" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
-    <div style={{padding:'15px'}}></div>
+    <div style={{padding:'15px'}}></div> */}
      <a href="https://ffm.to/super-human" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Superhuman} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/super-human" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
