@@ -5,7 +5,7 @@ export default function PortfolioTabs() {
   const navigate = useNavigate();
   const location = useLocation();
   const [hoveredTab, setHoveredTab] = useState(null);
-  const [activeTab, setActiveTab] = useState('longplay');
+  const [activeTab, setActiveTab] = useState('music');
 
   const tabs = [
     { id: 'music', label: 'MUSIC', path: '/music' },
@@ -14,13 +14,13 @@ export default function PortfolioTabs() {
     { id: 'merch', label: 'MERCH', path: '/merch' }, 
   ];
 
-  const tabs2 = [
-    { id: 'longplay', label: 'LIVE AT LONGPLAY', path: '/longplay' }
-  ];
+  // const tabs2 = [
+  //   { id: 'longplay', label: 'LIVE AT LONGPLAY', path: '/longplay' }
+  // ];
 
   // Sync active tab with current URL
   useEffect(() => {
-    const allTabs = [...tabs, ...tabs2];
+    const allTabs = [...tabs];
     const currentTab = allTabs.find(tab => tab.path === location.pathname);
     if (currentTab) {
       setActiveTab(currentTab.id);
@@ -59,9 +59,8 @@ export default function PortfolioTabs() {
           })}
         </nav>
       </div>
-      
       <div className="w-full" style={{paddingBottom: "20px"}}>
-        <nav className="flex flex-wrap justify-center gap-6 px-4 py-6">
+        {/* <nav className="flex flex-wrap justify-center gap-6 px-4 py-6">
           {tabs2.map((tab) => {
             const isActive = activeTab === tab.id;
             const isHovered = hoveredTab === tab.id;
@@ -83,7 +82,7 @@ export default function PortfolioTabs() {
               </button>
             );
           })}
-        </nav>
+        </nav>  */}
       </div>
     </div>
   );

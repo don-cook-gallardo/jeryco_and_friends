@@ -56,7 +56,7 @@ function App() {
                     transition: 'margin-top 1s ease-in-out',
                     minHeight: '120vh',
                     width: '100vw',
-                    backgroundColor: '#ff6a00',
+                    backgroundColor: '#ffff',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
@@ -71,8 +71,8 @@ function App() {
         <Route path="/tour" element={<Tour/>} />
         <Route path="/prints" element={<Prints/>} />
         <Route path="/merch" element={<Merch />} />
-        <Route path="/" element={<Longplay/>} /> {/* default route */}
-        <Route path="/longplay" element={<Longplay />} />
+        <Route path="/" element={<Music/>} /> {/* default route */}
+        {/* <Route path="/longplay" element={<Longplay />} /> */}
       </Routes></div></div>
     </BrowserRouter>
   );
