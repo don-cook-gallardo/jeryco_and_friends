@@ -55,7 +55,7 @@ function Mobile(){
     <a href="https://ffm.to/like-a-weirdo" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={LikeAWeirdo} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/like-a-weirdo" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
-        <img src={WunderMascot} style={{width: "425px"}}/>
+        <img src={WunderMascot} style={{width: "425px", paddingTop:"50px"}}/>
         <Footer/>
     </div>
     )
