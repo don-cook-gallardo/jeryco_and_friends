@@ -6,7 +6,7 @@ import Music from './pages/Music';
 import Tour from './pages/Tour';
 import Prints from './pages/Prints';
 import Merch from './pages/Merch';
-import Longplay from "./pages/Longplay"
+import Punkist from "./pages/Punkist"
 import BouncingKenny from "./components/BouncingKenny"
 import Tabs from './components/Tabs';
 
@@ -67,12 +67,12 @@ function App() {
  <div style={{padding:'5px'}}></div> 
  <Tabs/>
       <Routes>
+        <Route path="/punkist" element={<Punkist />} />
         <Route path="/music" element={<Music />} />
         <Route path="/tour" element={<Tour/>} />
         <Route path="/prints" element={<Prints/>} />
         <Route path="/merch" element={<Merch />} />
         <Route path="/" element={<Music/>} /> {/* default route */}
-        {/* <Route path="/longplay" element={<Longplay />} /> */}
       </Routes></div></div>
     </BrowserRouter>
   );

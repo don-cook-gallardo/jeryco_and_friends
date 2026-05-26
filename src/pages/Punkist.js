@@ -1,11 +1,11 @@
 
 import { useMediaQuery } from "react-responsive";
 import SaiyanKenny from "../img/Saiyan_Kenny.png"
-import LiveAtLongplay from "../img/Live_At_Longplay.png"
+import PunkistLogo from "../img/Punkist_Graphic.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
-export default function Longplay() {
+export default function Punkist() {
     return(<div
         style={{
             overflowX: "hidden",
@@ -40,13 +40,13 @@ function Desktop(){
 } 
 
 function Mobile(){
-   
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
-        <div><div className="row" style={{width: "356",padding: "25px 25px 10px 10px", justifyContent: "center"}}><img src={LiveAtLongplay} style={{width: "150px"}}/></div>
+        <div>
+            {/* <div className="row" style={{width: "356",padding: "25px 25px 10px 10px", justifyContent: "center"}}><img src={PunkistLogo} style={{width: "150px"}}/></div> */}
     <iframe 
   width="356" 
   height="200" 
-  src="https://www.youtube.com/embed/N8pRb1J3zpk?autoplay=1&mute=1" 
+  src="https://www.youtube.com/embed/XrSvTGCdROQ?autoplay=1&mute=1" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

@@ -5,11 +5,11 @@ export default function PortfolioTabs() {
   const navigate = useNavigate();
   const location = useLocation();
   const [hoveredTab, setHoveredTab] = useState(null);
-  const [activeTab, setActiveTab] = useState('music');
+  const [activeTab, setActiveTab] = useState('punkist');
 
   const tabs = [
+    { id: 'punkist', label: 'PUNKIST', path: '/punkist' },
     { id: 'music', label: 'MUSIC', path: '/music' },
-    // { id: 'tour', label: 'TOUR', path: '/tour' },
     { id: 'prints', label: 'PRINTS', path: '/prints' },
     { id: 'merch', label: 'MERCH', path: '/merch' }, 
   ];
