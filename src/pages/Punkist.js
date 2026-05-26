@@ -42,7 +42,7 @@ function Desktop(){
 function Mobile(){
     return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
         <div>
-            {/* <div className="row" style={{width: "356",padding: "25px 25px 10px 10px", justifyContent: "center"}}><img src={PunkistLogo} style={{width: "150px"}}/></div> */}
+            <div className="row" style={{padding: "15px 0 10px 10px"}}></div>
     <iframe 
   width="356" 
   height="200" 

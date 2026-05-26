@@ -72,7 +72,7 @@ function App() {
         <Route path="/tour" element={<Tour/>} />
         <Route path="/prints" element={<Prints/>} />
         <Route path="/merch" element={<Merch />} />
-        <Route path="/" element={<Music/>} /> {/* default route */}
+        <Route path="/" element={<Punkist/>} /> {/* default route */}
       </Routes></div></div>
     </BrowserRouter>
   );
