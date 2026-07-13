@@ -1,6 +1,6 @@
 
 import { useMediaQuery } from "react-responsive";
-import SaiyanKenny from "../img/Saiyan_Kenny.png"
+import Embryo from "../img/Embryo.png"
 import PunkistLogo from "../img/Punkist_Graphic.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
@@ -29,13 +29,14 @@ function Desktop(){
             width: "100vw",
             minWidth: "100vw",
             maxWidth: "3840px",
-             backgroundColor: '#ff8022',   
+             backgroundColor: 'white',   
             alignItems: "center",
             justifyContent: "flex-start"
         }}
     ><div style={{height: "50px",}}></div>
-<img src={SaiyanKenny} style={{width: "350px"}}/>
-<div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
+<img src={Embryo} style={{width: "350px"}}/>
+<div style={{paddingBottom: "200px"}}></div>
+<div style={{color: "black", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
     )
 } 
 

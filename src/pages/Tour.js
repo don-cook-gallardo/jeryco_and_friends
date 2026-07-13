@@ -1,6 +1,6 @@
 
 import { useMediaQuery } from "react-responsive";
-import SaiyanKenny from "../img/Saiyan_Kenny.png"
+import Embryo from "../img/Embryo.png"
 import ShowDatesHeader from "../img/Upcoming.png"
 import Tour1 from "../img/Tour_01.png"
 import Footer from "../components/Footer"
@@ -35,8 +35,9 @@ function Desktop(){
             justifyContent: "flex-start"
         }}
     ><div style={{height: "50px"}}></div>
-<img src={SaiyanKenny} style={{width: "350px"}}/>
-<div style={{color: "white", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
+<img src={Embryo} style={{width: "350px"}}/>
+<div style={{paddingBottom: "200px"}}></div>
+<div style={{color: "black", padding: "5px"}}><strong>Please view from a mobile device.</strong></div></div>
         
  
     )

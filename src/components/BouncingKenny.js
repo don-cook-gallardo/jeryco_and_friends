@@ -81,7 +81,7 @@ function BouncingKenny() {
       style={{ 
         width: '100vw',
         height: '100vh',
-        backgroundColor: '#78f726',
+        backgroundColor: 'white',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -98,8 +98,8 @@ function BouncingKenny() {
         }}
       >
         <img 
-          src="https://i.imgur.com/sdH5Mis.png"
-          alt="Saiyan Kenny"
+          src="https://i.imgur.com/ZocnXTi.png"
+          alt="Embryo"
           style={{
             width: '100%',
             height: '100%',
