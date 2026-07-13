@@ -7,7 +7,7 @@ import Tour from './pages/Tour';
 import Prints from './pages/Prints';
 import Merch from './pages/Merch';
 import Punkist from "./pages/Punkist"
-import BouncingKenny from "./components/BouncingKenny"
+import LoadingIcon from "./components/LoadingIcon"
 import Tabs from './components/Tabs';
 
 // Import the functions you need from the SDKs you need
@@ -48,7 +48,7 @@ function App() {
   return (
    <BrowserRouter>
     <div style={{ position: 'relative', width: '100vw', overflow: 'hidden' }}>
-        <BouncingKenny/>
+        <LoadingIcon/>
 <div
                 style={{
                     position: 'relative',

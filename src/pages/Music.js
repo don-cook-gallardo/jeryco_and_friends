@@ -2,7 +2,7 @@ import MailchimpForm from "../components/MailchimpForm"
 import { useMediaQuery } from "react-responsive";
 import Embryo from "../img/Embryo.png"
 import LikeAWeirdo from "../img/Like_A_Weirdo_Track_Art.jpg"
-import Punkist from "../img/Punkist_Cover.jpg"
+import Punkist from "../img/Punkist_Cover_Final.jpg"
 import WunderMascot from "../img/Wunder_Mascots.png"
 import Superhuman from "../img/Superhuman_Track_Art.jpg"
 import Footer from "../components/Footer";
@@ -45,10 +45,10 @@ function Desktop(){
 function Mobile(){
     return(
 <div className='column' style={{alignItems: "center",  backgroundColor: '#ffff' }}>
-    <a href="https://ffm.to/punkist" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Punkist} style={{width: "100vw"}}/></a>
+    {/* <a href="https://ffm.to/punkist" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Punkist} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/punkist" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 
-    <div style={{padding:'15px'}}></div>
+    <div style={{padding:'15px'}}></div> */}
      <a href="https://ffm.to/super-human" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={Superhuman} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/super-human" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> 

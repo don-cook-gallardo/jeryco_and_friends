@@ -1,7 +1,7 @@
 
 import { useMediaQuery } from "react-responsive";
 import Embryo from "../img/Embryo.png"
-import PunkistLogo from "../img/Punkist_Graphic.png"
+// import PunkistLogo from "../img/Punkist_Graphic.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 

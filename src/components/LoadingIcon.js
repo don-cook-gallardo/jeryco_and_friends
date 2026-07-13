@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-function BouncingKenny() {
+function LoadingIcon() {
   const [position, setPosition] = useState({ x: 150, y: 150 });
   const [velocity, setVelocity] = useState({ x: 5, y: 4 });
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -131,4 +131,4 @@ function BouncingKenny() {
   );
 }
 
-export default BouncingKenny;
+export default LoadingIcon;
