@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Music from './pages/Music';
 import Tour from './pages/Tour';
-import Prints from './pages/Prints';
+import Photography from './pages/Photography';
 import Merch from './pages/Merch';
 import Punkist from "./pages/Punkist"
 import LoadingIcon from "./components/LoadingIcon"
@@ -69,9 +69,9 @@ function App() {
       <Routes>
         <Route path="/punkist" element={<Punkist />} />
         <Route path="/music" element={<Music />} />
-        <Route path="/tour" element={<Tour/>} />
-        <Route path="/prints" element={<Prints/>} />
-        <Route path="/merch" element={<Merch />} />
+        {/* <Route path="/tour" element={<Tour/>} /> */}
+        <Route path="/photography" element={<Photography/>} />
+        {/* <Route path="/merch" element={<Merch />} /> */}
         <Route path="/" element={<Punkist/>} /> {/* default route */}
       </Routes></div></div>
     </BrowserRouter>

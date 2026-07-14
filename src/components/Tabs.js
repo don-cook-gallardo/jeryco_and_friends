@@ -10,8 +10,7 @@ export default function PortfolioTabs() {
   const tabs = [
      { id: 'music', label: 'MUSIC', path: '/music' },
     { id: 'punkist', label: 'PUNKIST', path: '/punkist' },
-    { id: 'prints', label: 'PRINTS', path: '/prints' },
-    { id: 'merch', label: 'MERCH', path: '/merch' }, 
+    { id: 'photography', label: 'PHOTOGRAPHY', path: '/photography' }
   ];
 
   // const tabs2 = [
