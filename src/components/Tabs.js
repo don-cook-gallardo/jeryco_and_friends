@@ -8,9 +8,10 @@ export default function PortfolioTabs() {
   const [activeTab, setActiveTab] = useState('punkist');
 
   const tabs = [
-     { id: 'music', label: 'MUSIC', path: '/music' },
+     { id: 'singles', label: 'SINGLES', path: '/singles' },
     { id: 'punkist', label: 'PUNKIST', path: '/punkist' },
-    { id: 'photography', label: 'PHOTOGRAPHY', path: '/photography' }
+     { id: 'photos', label: 'PHOTOS', path: '/photos' }
+   
   ];
 
   // const tabs2 = [
