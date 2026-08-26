@@ -2,10 +2,11 @@
 import { useMediaQuery } from "react-responsive";
 import Embryo from "../img/Embryo.png"
 // import PunkistLogo from "../img/Punkist_Graphic.png"
+import CrushPhoto from "../img/Crush_Cover_Final.jpg"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
-export default function Punkist() {
+export default function Crush() {
     return(<div
         style={{
             overflowX: "hidden",
@@ -41,19 +42,36 @@ function Desktop(){
 } 
 
 function Mobile(){
-    return(<div style={{width: "100vw"}}><div className='column' style={{height: "100vh", width: "100vw", justifyContent: "space-between",alignItems: "center",   backgroundColor: 'white'}}>
+    return(<div style={{width: "100vw"}}><div className='column' style={{width: "100vw", alignItems: "center",   backgroundColor: 'white'}}>
+         <div className='column' style={{width: "100vw", justifyContent: "center", alignItems: "center"}}><a href="https://ffm.to/crush-album" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={CrushPhoto} style={{width: "100vw"}}/></a>
+    <div style={{padding:'15px'}}></div> 
+        <a href="https://ffm.to/crush-album" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> </div>
+    <div style={{padding:'15px'}}></div>
         <div>
             <div className="row" style={{padding: "15px 0 10px 10px"}}></div>
     <iframe 
-  width="356" 
-  height="200" 
-  src="https://www.youtube.com/embed/XrSvTGCdROQ?autoplay=1&mute=1" 
+  width="400" 
+  height="224" 
+  src="https://www.youtube.com/embed/VLut4OS3l2E?autoplay=1&mute=1" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
 </iframe>
-<div style={{padding:"15px"}}></div>
+   </div>
+   <div style={{padding:'15px'}}></div>
+   <div>
+            <div className="row" style={{padding: "15px 0 10px 10px"}}></div>
+    <iframe 
+  width="400" 
+  height="224" 
+  src="https://www.youtube.com/embed/GA0dE-LwohA?autoplay=0&mute=1" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+<div style={{padding:"25px"}}></div>
    </div>
     <img src={WunderMascot} style={{width: "425px"}}/>
        

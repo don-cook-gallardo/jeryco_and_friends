@@ -6,7 +6,7 @@ import Singles from './pages/Singles';
 import Tour from './pages/Tour';
 import Photos from './pages/Photos';
 import Merch from './pages/Merch';
-import Punkist from "./pages/Punkist"
+import Crush from "./pages/Crush"
 import LoadingIcon from "./components/LoadingIcon"
 import Tabs from './components/Tabs';
 
@@ -67,12 +67,12 @@ function App() {
  <div style={{padding:'5px'}}></div> 
  <Tabs/>
       <Routes>
-        <Route path="/punkist" element={<Punkist />} />
+        <Route path="/crush" element={<Crush />} />
         <Route path="/singles" element={<Singles />} />
         {/* <Route path="/tour" element={<Tour/>} /> */}
         <Route path="/photos" element={<Photos/>} />
         {/* <Route path="/merch" element={<Merch />} /> */}
-        <Route path="/" element={<Punkist/>} /> {/* default route */}
+        <Route path="/" element={<Singles/>} /> {/* default route */}
       </Routes></div></div>
     </BrowserRouter>
   );
