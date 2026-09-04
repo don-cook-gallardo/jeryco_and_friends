@@ -42,7 +42,7 @@ function Desktop(){
 } 
 
 function Mobile(){
-    return(<div style={{width: "100vw"}}><div className='column' style={{width: "100vw", alignItems: "center",   backgroundColor: 'white'}}>
+    return(<div style={{width: "100vw"}}><div className='column' style={{width: "100vw", alignItems: "center",   backgroundColor: '#ff6a00'}}>
          <div className='column' style={{width: "100vw", justifyContent: "center", alignItems: "center"}}><a href="https://ffm.to/crush-album" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={CrushPhoto} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/crush-album" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> </div>
@@ -50,9 +50,9 @@ function Mobile(){
         <div>
             <div className="row" style={{padding: "15px 0 10px 10px"}}></div>
     <iframe 
-  width="400" 
-  height="224" 
-  src="https://www.youtube.com/embed/VLut4OS3l2E?autoplay=1&mute=1" 
+  width="390" 
+  height="208" 
+  src="https://www.youtube.com/embed/L3DBdXCATnU?autoplay=1&mute=1" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -63,15 +63,15 @@ function Mobile(){
    <div>
             <div className="row" style={{padding: "15px 0 10px 10px"}}></div>
     <iframe 
-  width="400" 
-  height="224" 
-  src="https://www.youtube.com/embed/GA0dE-LwohA?autoplay=0&mute=1" 
+  width="390"
+  height="208" 
+  src="https://www.youtube.com/embed/9rY_lKq7BOk?autoplay=0&mute=1" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
 </iframe>
-<div style={{padding:"25px"}}></div>
+<div style={{padding:"35px"}}></div>
    </div>
     <img src={WunderMascot} style={{width: "425px"}}/>
        

@@ -5,7 +5,7 @@ import ComingSoon from "../img/Coming_Soon.png"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
-export default function Prints() {
+export default function Fashion() {
     return(<div
         style={{
             overflowX: "hidden",

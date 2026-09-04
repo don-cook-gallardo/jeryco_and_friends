@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Singles from './pages/Singles';
 import Tour from './pages/Tour';
-import Photos from './pages/Photos';
+import Fashion from './pages/Fashion';
 import Merch from './pages/Merch';
 import Crush from "./pages/Crush"
 import LoadingIcon from "./components/LoadingIcon"
@@ -56,7 +56,7 @@ function App() {
                     transition: 'margin-top 1s ease-in-out',
                     minHeight: '120vh',
                     width: '100vw',
-                    backgroundColor: '#ffff',
+                    backgroundColor: '#ff6a00',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
@@ -70,9 +70,9 @@ function App() {
         <Route path="/crush" element={<Crush />} />
         <Route path="/singles" element={<Singles />} />
         {/* <Route path="/tour" element={<Tour/>} /> */}
-        <Route path="/photos" element={<Photos/>} />
+        <Route path="/fashion" element={<Fashion/>} />
         {/* <Route path="/merch" element={<Merch />} /> */}
-        <Route path="/" element={<Singles/>} /> {/* default route */}
+        <Route path="/" element={<Crush/>} /> {/* default route */}
       </Routes></div></div>
     </BrowserRouter>
   );
