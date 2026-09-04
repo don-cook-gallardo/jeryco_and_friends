@@ -2,7 +2,7 @@
 import { useMediaQuery } from "react-responsive";
 import Embryo from "../img/Embryo.png"
 // import PunkistLogo from "../img/Punkist_Graphic.png"
-import CrushPhoto from "../img/Crush_Cover_Final.jpg"
+import CrushPhoto from "../img/Crush_Cover_1.jpg"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
@@ -42,7 +42,7 @@ function Desktop(){
 } 
 
 function Mobile(){
-    return(<div style={{width: "100vw"}}><div className='column' style={{width: "100vw", alignItems: "center",   backgroundColor: '#ff6a00'}}>
+    return(<div style={{width: "100vw"}}><div className='column' style={{width: "100vw", alignItems: "center",   backgroundColor: 'white'}}>
          <div className='column' style={{width: "100vw", justifyContent: "center", alignItems: "center"}}><a href="https://ffm.to/crush-album" target="_blank" className='row' style={{width: "100vw", justifyContent: "center"}}><img src={CrushPhoto} style={{width: "100vw"}}/></a>
     <div style={{padding:'15px'}}></div> 
         <a href="https://ffm.to/crush-album" target="_blank"><button className="share-button" style={{width: "115px", height: "40px"}}><strong>Share</strong></button></a> </div>
