@@ -2,7 +2,7 @@
 import { useMediaQuery } from "react-responsive";
 import Embryo from "../img/Embryo.png"
 // import PunkistLogo from "../img/Punkist_Graphic.png"
-import CrushPhoto from "../img/Crush_Cover_1.jpg"
+import CrushPhoto from "../img/Crush_Cover_2.jpg"
 import Footer from "../components/Footer"
 import WunderMascot from "../img/Wunder_Mascots.png"
 
